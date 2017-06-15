@@ -4,4 +4,8 @@ python:
   - "3.6"
 os: linux
 dist: trusty
-script: nosetests
+install:
+  - pip install coveralls
+script: nosetests --with-coverage --cover-package=calc --cover-erase
+after_success:
+  - coveralls
