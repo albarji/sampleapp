@@ -3,10 +3,10 @@ calc.py
 
 Implements a very simple calculator
 """
-
+#OLAKASE
 def sum(a, 
   b):
-    return a + b
+    return a + b 
 
 def sub(a, b):
     return a - b

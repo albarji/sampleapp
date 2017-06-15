@@ -19,3 +19,7 @@ def test_factorize():
     assert(calc.factorize(6) == [2, 3])
     assert(calc.factorize(8) == [2, 2, 2])
 
+def test_fibonacci():
+    assert(calc.fibonacci(5) == 5)
+    assert(calc.fibonacci(2) == 1)
+
