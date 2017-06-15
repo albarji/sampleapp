@@ -6,7 +6,7 @@ Implements a very simple calculator
 
 def sum(a, 
   b):
-    return a + b
+    return a - b # PROBLEM???
 
 def sub(a, b):
     return a - b
